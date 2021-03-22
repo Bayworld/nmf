@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" href="./favicon.jpg"><title>Get Back In Shape</title>
+  <link rel="stylesheet" href="contact.css">
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+emailjs.init("user_hgXwwOZqFCBicqc2qwk4p");
+})();
+</script>
+
+</head>
+<body>
+  <section id="hero">
+
+    <header>
+      <div class="container">
+        <div id="header-logo-mobile" class="top-gym-logo">
+          <a href="#">New Mothers Fitness</a>
+        </div>
+
+        <nav>
+          <ul class="flex">
+            <li id="header-logo" class="top-gym-logo">
+                <a href="#">New Mothers Fitness</a>
+              </li>
+            <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="features.html">WORKOUT PLAN</a></li>
+            <li><a href="diet.html">DIET-PLAN</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="contact.html" style="border-bottom: 3px solid blue; text-decoration: none;">CONTACT US</a></li>
+            &nbsp;&nbsp;<li class="login"><a href="#">LOGIN</a></li>
+            <!-- <li>
+              &nbsp;&nbsp;&nbsp;<button id="search"><span class="fa fa-search"></span></button>
+            </li> -->
+          </ul>
+        </nav>
+
+        <button id="hamburger-menu">
+          <span class="strip"></span>
+          <span class="strip"></span>
+          <span class="strip"></span>
+        </button>
+      </div>
+    </header>
+
+    <div id="hero-slider">
+        
+      <div class="hero-slide-item" style="height: 75vh;">
+      <div class="hero-slider-marketing"><h2 style="position: relative; bottom: 110px;">CONTACT <span style="color: blue;">US</span></h2>
+         <a href="./join.html"><button style="position: relative; bottom: 100px;" class="on">JOIN NOW</button></a>
+         
+<div class="icons">
+  <a href="#" class="fab fa-facebook"></a>
+  <a href="#" class="fab fa-twitter"></a>
+  <a href="#" class="fab fa-github"></a>
+  <a href="#" class="fab fa-pinterest"></a>
+</div>
+      </div>
+    </div>
+    
+
+    </div>
+  </section>
+  <div class="container">
+
+    <div class="row">
+
+        <div class="col-xl-8 offset-xl-2 py-5" style="margin: 5px;">
+            <ul class="contact">
+                <div class="con">
+                <h5 style="color: rgb(48, 48, 167); font-size: 21px; margin: 5px;">Contact Us</h5>
+              <a href="tel:08188270237"><li><i class="fas fa-phone"></i>+234818827237</li></a>
+              <a href="mailto:newmothersfitness@gmail.com"><li><i class="fas fa-envelope"></i>newmothersfitness@</li></a>
+              <a href="#location"><li><i class="fas fa-map-marker-alt"></i>nmf address name</li></a> 
+            </div>
+                <div class="sub">
+                    <label for="">Subscribe To Our Newsletter</label>
+                    <form action="">
+                        <input type="email" name="email" id="email" placeholder="enter a valid email address" required><br><br>
+                        <button style="background-color: rgb(13, 13, 102);">Submit</button>
+                    </form>
+                </div>
+            </ul>
+
+            <!-- We're going to place the form here in the next step -->
+            <!-- <div class="social" style="margin: 5px; border: 2px solid rgb(70, 70, 163);">
+            <input type="text" id="fromName" placeholder="From Name" required>
+            <input type="text" id="toName" placeholder="To Name" required>
+            <input type="text" id="msg" placeholder="Enter Your Message" required>
+            <button onclick="sendMail()">Send Email</button>
+            </div> -->
+
+            <div class="container">
+                <div class="headeral">
+                  <h5 style="color: blue; font-size: 25px; margin: 5px;">Send Us A Message</h5>
+                </div>
+                <div class="contain">
+                    <img src="./ccc.jpg" style="width: 50%; " alt="">
+                 <div class="form" id="form">
+                  <div class="form-control">
+                    <label for="">Your Email:</label>
+                    <input type="text" id="fromName" placeholder="Valid email address" required>
+                  </div>
+                  <div class="form-control">
+                    <label for="">To:</label>
+                    <input type="text" id="toName" placeholder="To Name" required>
+                  </div>
+                 
+                  <div class="form-control">
+                    <!-- <input type="text" id="msg" placeholder="Enter Your Message" required>  -->
+                    <textarea name="message" id="msg" cols="40" rows="10" placeholder="Your Message"></textarea>
+                  </div>
+                  <button onclick="sendMail()">Send</button>
+                </div>
+                </div>
+              </div>
+        </div>
+
+    </div>
+
+</div>
+
+      <!-- SOCIAL PANEL HTML -->
+      <div class="social-panel-container">
+        <div class="social-panel">
+          <p>Created with <i class="fa fa-heart"></i> by bayworld</p>
+          <button class="close-btn"><i class="fas fa-times"></i></button>
+          <h4>Get in touch on</h4>
+          <ul>
+            <li>
+              <a href="#" target="_blank">
+                <i class="fab fa-discord"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>  
+       <button class="floating-btn">
+      Get in Touch
+    </button>
+    <div class="floating-text">
+      <a href="#" target="_blank">N M F</a>
+    </div> 
+    <div class="bottom" style="width: 51%; border: 11px solid #233EDE;"></div> 
+<!-- 
+  <section id="schedule-services">
+    <div class="flex container">
+      <div class="upcoming-classes-box">
+        <strong>NEXT</strong>
+        <h4>Upcoming Classes</h4>
+        <table>
+          <tr>
+            <td><img src="./stopwatch.png" alt="Stopwatch" /></td>
+            <td>Free Lifting</td>
+            <td>11:00 - 12:00</td>
+          </tr>
+
+          <tr>
+            <td><img src="./stopwatch.png" alt="Stopwatch" /></td>
+            <td>Pilates</td>
+            <td>12:00 - 1:00</td>
+          </tr>
+
+          <tr>
+            <td><img src="./stopwatch.png" alt="Stopwatch" /></td>
+            <td>Spinning</td>
+            <td>1:00 - 2:00</td>
+          </tr>
+
+          <tr>
+            <td><img src="./stopwatch.png" alt="Stopwatch" /></td>
+            <td>Yoga</td>
+            <td>2:00 - 3:00</td>
+          </tr>
+
+          <tr>
+            <td><img src="./stopwatch.png" alt="Stopwatch" /></td>
+            <td>Cycling</td>
+            <td>3:00 - 4:00</td>
+          </tr>
+
+          <tr>
+            <td><img src="./stopwatch.png" alt="Stopwatch" /></td>
+            <td>Side Planking</td>
+            <td>4:00 - 5:00</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="membership-cards-box">
+        <div class="inner-container">
+          <strong>NEXT</strong>
+          <h4>Membership Deals</h4>
+          <h2>25% <span>Discount</span></h2>
+        </div>
+      </div>
+
+      <div class="personal-trainer-box">
+        <strong>BECOME A</strong>
+        <h4>Personal Trainer</h4>
+        <p>Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis nulla pretium.Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis nulla pretium.</p>
+        <button>Sign Up Now</button>
+      </div>
+    </div>
+  </section> -->
+
+  <footer>
+    <div class="footer-container">
+      <div id="footer-logo" class="top-gym-logo">
+        <a href="#">New Mothers<br/>Fitness</a>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a href="features.html">WORKOUT PLAN</a></li>
+          <li><a href="diet.html">DIET PLAN</a></li>
+          <li><a href="#blog">BLOG</a></li>
+          <li><a href="contact.html" style="border-bottom: 3px solid blue; text-decoration: none;">CONTACT US</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#about">PRIVACY POLICY</a></li>
+          <li><a href="#about">TERM OF USE</a></li>
+        </ul>
+      </nav>
+
+      <div class="mailing-list">
+        <input type="text" placeholder="YOUR EMAIL" />
+        <button class="boton" style="border: none;" >SIGN UP</button>
+      </div>
+
+      <ul class="social-icons">
+        <li><a href="#"><span class="fab fa-pinterest"></span></a></li>
+        <li><a href="#"><span class="fab fa-facebook"></span></a></li>
+        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+        <li><a href="#"><span class="fab fa-youtube"></span></a></li>
+        <li><a href="#"><span class="fab fa-behance"></span></a></li>
+      </ul>
+
+      <img src="./footer-icon.png" class="bicep" alt="Bicep flex icon" />
+
+      <small>
+        Copyright &copy;2021 All rights reserved <span class="fa fa-heart"></span> 
+      </small>
+    </div>
+  </footer>
+
+  <div id="search-container">
+    <span id="search-container-hide" class="fa fa-times"></span>
+    <h3>Search</h3>
+    <div class="search-container-input">
+      <input type="text" name="search" placeholder="Search this site" />
+      <button>Search</button>
+    </div>
+  </div>
+
+  <div id="video-frame">
+    <span id="video-frame-hide" class="fa fa-times"></span>
+    <div class="video-frame-container">
+      <div class="video-frame-scaler">
+          <iframe id="embed-video" src="https://www.youtube.com/embed/WCBEammPsu0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // document ready function
+    $(function () {
+      // store jquery references to elements in const variables
+      const headerNav = $('header nav');
+      const hamburgerMenu = $('#hamburger-menu');
+      const search = $('#search');
+      const searchContainerHide = $('#search-container-hide');
+      const searchContainer = $('#search-container');
+      const youtubeButton = $('.youtube-button');
+      const videoFrame = $('#video-frame');
+      const videoFrameHide = $('#video-frame-hide');
+      const embedVideo = $('#embed-video');
+      const header = $('header');
+
+      // initialize hero slider
+      $('#hero-slider').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        pauseOnFocus: false,
+        pauseOnHover: false,
+        fade: true,
+        speed: 1000,
+        cssEase: 'linear'
+      });
+
+      $('#trainers-slider').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        prevArrow: '<a href="#" class="slick-arrow slick-prev">previous</a>',
+        nextArrow: '<a href="#" class="slick-arrow slick-next">next</a>',
+        responsive: [
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 2,
+              arrows: false
+            }
+          },
+          {
+            breakpoint: 530,
+            settings: {
+              slidesToShow: 1,
+              arrows: false
+            }
+          }
+        ]
+      });
+
+      // initialize event handling
+      hamburgerMenu.on('click', () => {
+        headerNav.toggle();
+      });
+
+      search.on('click', () => {
+        searchContainer.css({
+          'opacity': '1',
+          'visibility': 'visible',
+          'z-index': '100'
+        });
+      });
+
+      searchContainerHide.on('click', () => {
+        searchContainer.css({
+          'opacity': '0',
+          'visibility': 'hidden',
+          'z-index': '0'
+        });
+      });
+
+      youtubeButton.on('click', () => {
+        videoFrame.css({
+          'opacity': '1',
+          'visibility': 'visible',
+          'z-index': '100'
+        });
+      });
+
+      videoFrameHide.on('click', () => {
+        videoFrame.css({
+          'opacity': '0',
+          'visibility': 'hidden',
+          'z-index': '0'
+        });
+        
+        embedVideo.prop('src', embedVideo.prop('src'));
+      });
+      
+    });
+  </script>
+  <script src="./contact.js"></script>
+
+</body>
+</html>
